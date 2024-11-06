@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"No tests yet\""
+    "build": "echo \"No build step defined\""
   },
   "author": "",
   "license": "ISC"

@@ -27,5 +27,10 @@ jobs:
       - name: Run tests
         run: npm test
 
-      - name: Build application
-        run: npm run build
+      # Remova ou comente esta linha se você não precisa de um build
+      # - name: Build application
+      #   run: npm run build
+
+      - name: Deploy (opcional)
+        run: |
+          echo "Deploying application..."
